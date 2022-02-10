@@ -4,7 +4,7 @@ Install and configure zabbix_agent on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-zabbix_agent/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-zabbix_agent)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|
+|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-zabbix_agent/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-zabbix_agent)|[![quality](https://img.shields.io/ansible/quality/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
