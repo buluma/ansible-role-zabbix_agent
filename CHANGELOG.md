@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-zabbix_agent/tree/HEAD)
+## [1.0.5](https://github.com/buluma/ansible-role-zabbix_agent/tree/1.0.5) (2022-04-25)
 
-[Full Changelog](https://github.com/buluma/ansible-role-zabbix_agent/compare/1.0.4...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-zabbix_agent/compare/1.0.4...1.0.5)
 
 **Merged pull requests:**
 
