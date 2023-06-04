@@ -4,11 +4,12 @@ Install and configure zabbix_agent on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-zabbix_agent/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-zabbix_agent)|[![quality](https://img.shields.io/ansible/quality/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent)|[![quality](https://img.shields.io/ansible/quality/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-zabbix_agent/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+
 ```yaml
 ---
 - name: Converge
@@ -20,7 +21,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
     - role: buluma.zabbix_agent
 ```
 
-The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-zabbix_agent/blob/master/molecule/default/prepare.yml):
+
 ```yaml
 ---
 - name: Prepare
@@ -34,10 +36,12 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.zabbix_repository
 ```
 
+Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
 ## [Role Variables](#role-variables)
 
-The default values for the variables are set in `defaults/main.yml`:
+The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-zabbix_agent/blob/master/defaults/main.yml):
+
 ```yaml
 ---
 # Values used to configure zabbix_agent.
@@ -58,17 +62,17 @@ zabbix_agent_logremotecommands: "1"
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-zabbix_agent/blob/main/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-zabbix_agent/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
-|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-ca_certificates/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-ca_certificates)|
-|[buluma.zabbix_repository](https://galaxy.ansible.com/buluma/zabbix_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-zabbix_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_repository/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-zabbix_repository/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-zabbix_repository)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.ca_certificates](https://galaxy.ansible.com/buluma/ca_certificates)|[![Build Status GitHub](https://github.com/buluma/ansible-role-ca_certificates/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ca_certificates/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-ca_certificates/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ca_certificates)|
+|[buluma.zabbix_repository](https://galaxy.ansible.com/buluma/zabbix_repository)|[![Build Status GitHub](https://github.com/buluma/ansible-role-zabbix_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_repository/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-zabbix_repository/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-zabbix_repository)|
 
 ## [Context](#context)
 
@@ -84,32 +88,16 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|el|8|
-|debian|bullseye|
-|opensuse|all|
-|ubuntu|focal, bionic|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8|
+|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bullseye|
+|[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
+|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|focal, bionic|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.13, tests have been done to:
 
 - The previous version.
 - The current version.
 - The development version.
-
-## [Exceptions](#exceptions)
-
-Some roles can't run on a specific distribution or version. Here are some exceptions.
-
-| variation                 | reason                 |
-|---------------------------|------------------------|
-| Alpine | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| amazonlinux | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| Archlinux | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| CentOS 8 | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| Debian | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| Fedora | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| openSUSE | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-| Ubuntu rolling | Zabbix has [limited OS support](https://www.zabbix.com/download). |
-
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-zabbix_agent/issues)
 
@@ -119,8 +107,14 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-Apache-2.0
+[Apache-2.0](https://github.com/buluma/ansible-role-zabbix_agent/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
+
+### [Special Thanks](#special-thanks)
+
+Template inspired by [Robert de Bock](https://github.com/robertdebock)
