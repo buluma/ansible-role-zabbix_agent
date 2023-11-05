@@ -2,9 +2,9 @@
 
 Install and configure zabbix_agent on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent)|[![quality](https://img.shields.io/ansible/quality/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/58003)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-zabbix_agent/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-zabbix_agent)|[![downloads](https://img.shields.io/ansible/role/d/4886)](https://galaxy.ansible.com/buluma/zabbix_agent)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
