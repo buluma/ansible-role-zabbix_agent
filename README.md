@@ -1,10 +1,10 @@
-# [Ansible role zabbix_agent](#zabbix_agent)
+# Ansible role [zabbix_agent](https://galaxy.ansible.com/ui/standalone/roles/buluma/zabbix_agent/documentation)
 
 Install and configure zabbix_agent on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-zabbix_agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-zabbix_agent/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-zabbix_agent/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-zabbix_agent.svg)](https://github.com/buluma/ansible-role-zabbix_agent/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/zabbix_agent)](https://galaxy.ansible.com/ui/standalone/roles/buluma/zabbix_agent/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -111,9 +111,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
