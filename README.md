@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.zabbix_agent
@@ -27,8 +27,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  gather_facts: no
-  become: yes
+  gather_facts: false
+  become: true
 
   roles:
     - role: buluma.bootstrap
@@ -91,7 +91,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8|
 |[Debian](https://hub.docker.com/r/buluma/debian)|bullseye|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, lunar, noble, jammy|
 
 The minimum version of Ansible required is 2.13, tests have been done to:
 

@@ -21,6 +21,9 @@ galaxy_info:
       versions:
         - focal
         - bionic
+        - lunar
+        - noble
+        - jammy
 
   galaxy_tags:
     - zabbix
