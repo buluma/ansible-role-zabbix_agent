@@ -91,7 +91,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8|
 |[Debian](https://hub.docker.com/r/buluma/debian)|bullseye|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, lunar, noble, jammy|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, noble, jammy|
 
 The minimum version of Ansible required is 2.13, tests have been done to:
 
