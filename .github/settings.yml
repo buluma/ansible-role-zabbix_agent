@@ -5,4 +5,4 @@
 repository:
   description: Install and configure zabbix_agent on your system.
   homepage: https://buluma.github.io/
-  topics: zabbix, agent, ansible, molecule, tox, playbook
+  topics: zabbix, agent, ansible, molecule, playbook

@@ -1,31 +1,24 @@
----
 galaxy_info:
   author: buluma
   role_name: zabbix_agent
   description: Install and configure zabbix_agent on your system.
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: "2.13"
-
+  min_ansible_version: '2.13'
   platforms:
-    - name: EL
-      versions:
-        - "8"
-    - name: Debian
-      versions:
-        - bullseye
-    - name: opensuse
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - focal
-        - bionic
-        - noble
-        - jammy
-
+  - name: EL
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
-    - zabbix
-    - agent
-
+  - zabbix
+  - agent
 dependencies: []
