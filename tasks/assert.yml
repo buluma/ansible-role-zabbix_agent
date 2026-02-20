@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if zabbix_agent_server_address is set correctly
   ansible.builtin.assert:
     that:
