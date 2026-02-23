@@ -1,13 +1,13 @@
 ---
-  - name: Verify
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: false
 
-    tasks:
-      - name: check if connection still works
-        ansible.builtin.ping:
+  tasks:
+  - name: check if connection still works
+    ansible.builtin.ping:
 
-      - name: check if port 10050 is open
-        ansible.builtin.wait_for:
-          port: 10050
+  - name: check if port 10050 is open
+    ansible.builtin.wait_for:
+      port: 10050
