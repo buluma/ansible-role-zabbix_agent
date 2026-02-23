@@ -1,10 +1,10 @@
 ---
-- name: Prepare
-  hosts: all
-  gather_facts: false
-  become: true
+  - name: Prepare
+    hosts: all
+    gather_facts: false
+    become: true
 
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.ca_certificates
-    - role: buluma.zabbix_repository
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.ca_certificates
+      - role: buluma.zabbix_repository
