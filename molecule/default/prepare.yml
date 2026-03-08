@@ -5,6 +5,6 @@
   become: true
 
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.ca_certificates
-  - role: buluma.zabbix_repository
+    - role: buluma.bootstrap
+    - role: buluma.ca_certificates
+    - role: buluma.zabbix_repository
