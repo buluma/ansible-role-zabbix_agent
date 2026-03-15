@@ -9,6 +9,10 @@
 - Update action [\#12](https://github.com/buluma/ansible-role-zabbix_agent/issues/12)
 - rebuild action [\#11](https://github.com/buluma/ansible-role-zabbix_agent/issues/11)
 
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#26](https://github.com/buluma/ansible-role-zabbix_agent/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-zabbix_agent/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-zabbix_agent/compare/1.2.0...24.3.31)
