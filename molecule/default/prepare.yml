@@ -8,3 +8,5 @@
     - role: buluma.bootstrap
     - role: buluma.ca_certificates
     - role: buluma.zabbix_repository
+      zabbix_repository_version_major: "7.0"
+      zabbix_repository_version_minor: 3
