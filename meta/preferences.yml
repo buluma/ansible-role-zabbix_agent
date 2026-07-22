@@ -4,7 +4,9 @@
 platforms:
   - name: EL
     versions:
-      - "10"
+      # Excludes 10: Zabbix's official repo signing key lacks a valid
+      # RFC4880bis subkey binding signature, which EL10's rpm-sequoia
+      # backend rejects outright with no policy override available.
       - "9"
   - name: Debian
     versions:
